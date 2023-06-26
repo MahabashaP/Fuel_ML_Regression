@@ -43,7 +43,7 @@ def main():
 
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True)
-    st.image("""https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnbc.com%2F2019%2F08%2F15%2Fwalmarts-secret-weapon-in-its-quest-to-outmaneuver-amazon.html&psig=AOvVaw2fsA_eoksMCcB9wwCTfkw2&ust=1687864199300000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCl4qDm4P8CFQAAAAAdAAAAABAE""")
+    st.image("""https://www.google.com/url?sa=i&url=https%3A%2F%2Fcorporate.walmart.com%2F&psig=AOvVaw2fsA_eoksMCcB9wwCTfkw2&ust=1687864199300000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCl4qDm4P8CFQAAAAAdAAAAABAJ""")
     # following lines create boxes in which user can enter data required to make prediction
     Store = st.number_input("EnterNumber of Store Number",min_value=1, max_value=50)
     Holiday = st.selectbox('Holiday Status',("Holiday","Not Holiday"))
